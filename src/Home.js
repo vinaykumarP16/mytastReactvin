@@ -14,6 +14,10 @@ export default function Home() {
 			<Link to="/resources">
 			<button className="mybtn" >Resources</button>
 			</Link>
+			<Link to="/profile">
+			<button className="mybtn" >Vinay's Profile</button>
+			</Link>
+			
 
 		</div>
 	)

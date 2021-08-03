@@ -60,7 +60,7 @@ body{
   justify-content: space-around;
   text-align: center;
   color: #ffff;
-  text-transform: uppercase;
+  text-transform: capitalize;
   text-decoration: none;
   font-size: 1.4em;
 }
@@ -73,11 +73,62 @@ body{
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  text-transform: uppercase;
+  text-transform: capitalize;
   text-decoration: none;
 
 }
 
+
+
+.myprofile{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 95%;
+  margin: auto;
+}
+
+.mylinks{
+  display: flex;
+  justify-content: space-around;
+}
+
+.mylinks a{
+  text-decoration: none;
+  font-size: 2em;
+}
+
+a i{
+  color: #ffff;
+  cursor: pointer;
+  margin: 15px;
+}
+
+a i:hover{
+  color: orange;
+}
+
+
+.myprojects{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.myprojects a{
+  margin: 5px;
+  font-size: 1.2em;
+  color: red;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.myprojects a:hover{
+  color: red;
+  border: 2px solid orange;
+} 
 
 @media screen and (max-width: 800px) {
 
@@ -101,6 +152,11 @@ body{
 
   .item{
     margin: 15px;
+  }
+
+  .singledata{
+    width: 250px;
+    height: 250px;
   }
 
 

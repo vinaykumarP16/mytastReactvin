@@ -29,7 +29,7 @@ const Item=async()=>{
 		<div className="singledata" style={{backgroundColor:item.color}}>
 					<h1>{item.name}</h1>
 					<h1>{item.year}</h1>	
-					pentagon value
+					<h3>pentagon value</h3>
 					<h1>{item.pantone_value}</h1>
 			</div> 
 

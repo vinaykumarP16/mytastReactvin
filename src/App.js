@@ -2,6 +2,7 @@ import React from 'react';
 import Home from './Home.js';
 import Resources from './Resources.js';
 import Singledata from './Singledata.js';
+import Profile from './Profile.js';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 export default function App() {
@@ -12,6 +13,7 @@ export default function App() {
           <Route  exact path="/" component={Home}/>
           <Route exact path="/resources" component={Resources}/>
           <Route path="/resources/:id" component={Singledata} />
+          <Route path="/profile" component={Profile}/>
         </Switch>
       </div>
     </Router>
